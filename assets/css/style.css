@@ -62,6 +62,7 @@ h2, h3, h4, h5 {
 
 #portrait {
 	width: 175px;
+	float: left;
 }
 .wrapper {
 	overflow: auto;
@@ -82,8 +83,8 @@ h2, h3, h4, h5 {
 	text-align: center;
 	padding: 15px 15px 15px 30px;
 	width: 235px;
-	height: 200px;
-	top: -400px;
+	height: 126px;
+	top: -580px;
 	left: 670px;
 }
 .footer {
@@ -101,3 +102,69 @@ h2, h3, h4, h5 {
 	color: white;
 	z-index: 2;
 }
+
+}
+.outerbox {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 125px;
+}
+img {
+	padding-right: 10px;
+	float: left;
+}
+.pic1 {
+	position: relative;
+}
+.link1 {
+	position: relative;
+	left: -200px;
+	top: 85px;
+	text-align: center;
+	padding: 10px 50px 10px 10px;
+	width: 190px;
+	margin-left: 205px;
+	background: #4aaaa5;
+	z-index: 2;
+}
+#link1 {
+	position: relative;
+	left: -200px;
+	top: 85px;
+	text-align: center;
+	padding: 10px 35px 10px 10px;
+	width: 59px;
+	margin-left: 205px;
+	background: #4aaaa5;
+	z-index: 2;
+}
+.link1 > a {
+	color: white;
+}
+#link1 > a {
+	color: white;
+}
+.pic2 {
+	position: relative;
+	top: -38px;
+	left: 20px;
+	z-index: 1;
+}
+.link2 {
+	clear: both;
+	position: relative;
+	left: 157px;
+	top: -77px;
+	text-align: center;
+	padding: 10px;
+	width: 100px;
+	background: #4aaaa5;
+	z-index: 2;
+}
+.link2 > a {
+	color: white;
+}
+p {
+	text-indent: 40px;
+line-height: 1.5;
